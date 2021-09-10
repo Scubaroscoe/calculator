@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="./styles/reset.css">
+		<link rel="stylesheet" href="./styles/main.css">
+		
+		<title>Calculator</title>
+	</head>
+	<body>
+		<h1>Calculator</h1>
+		</br>
+		<div id="calc-container">
+			<textarea id="calc-display" readonly></textarea>
+			<button id="backspc" class="btn-spcl" data-key="8">backspc</button>
+			<button id="period" class="btn-spcl" data-key="190">.</button>
+			<button id="one" class="btn-num" data-key="49">1</button>
+			<button id="two" class="btn-num" data-key="50">2</button>
+			<button id="three" class="btn-num" data-key="51">3</button>
+			<button id="add" class="btn-op" data-key="107">+</button>
+			<button id="four" class="btn-num" data-key="52">4</button>
+			<button id="five" class="btn-num" data-key="53">5</button>
+			<button id="six" class="btn-num" data-key="54">6</button>
+			<button id="sub" class="btn-op" data-key="109">-</button>
+			<button id="seven" class="btn-num" data-key="55">7</button>
+			<button id="eight" class="btn-num" data-key="56">8</button>
+			<button id="nine" class="btn-num" data-key="57">9</button>
+			<button id="mul" class="btn-op" data-key="106">*</button>
+			<button id="clear" class="btn-spcl" data-key='127'>clear</button>
+			<!-- The above uses the delete key for clearing-->
+			<button id="zero" class="btn-num" data-key="48">0</button>
+			<button id="equals" class="btn-spcl" data-key="13">=</button> 
+			<!-- The above is actually the data key for enter not equals -->
+			<button id="div" class="btn-op" data-key="111">/</button>
+		</div>
+		<script src="./js/main.js" defer></script>
+	</body>
+</html>
